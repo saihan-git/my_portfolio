@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -24,9 +24,9 @@
   --h1-font-size: 1.75rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
   --font-regular: 400;
@@ -47,8 +47,8 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -94,15 +94,12 @@ img {
 
 /*=============== THEME ===============*/
 
-
 /*========== Variables Dark theme ==========*/
-
 
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -124,7 +121,7 @@ img {
   position: relative;
   font-size: var(--h1-font-size);
   width: max-content;
-  margin: .75rem auto 2rem;
+  margin: 0.75rem auto 2rem;
 }
 
 .section__title-1 span,
@@ -138,7 +135,7 @@ img {
   content: "";
   width: 40px;
   height: 28px;
-  background-color: hsla(14, 98%, 50%, .2);
+  background-color: hsla(14, 98%, 50%, 0.2);
   position: absolute;
   top: -4px;
   right: -8px;
@@ -192,7 +189,7 @@ img {
 
 .nav__logo {
   display: flex;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   align-items: center;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
@@ -223,12 +220,12 @@ img {
     position: fixed;
     top: -100%;
     left: 0;
-    background-color: hsla(0, 0%, 0%, .75);
+    background-color: hsla(0, 0%, 0%, 0.75);
     width: 100%;
     padding-block: 1.8rem 5rem;
     text-align: center;
     backdrop-filter: blur(8px);
-    transition: top .4s;
+    transition: top 0.4s;
   }
 }
 
@@ -254,14 +251,13 @@ img {
 
 .nav__name::after,
 .nav__name::before {
-  content: '';
+  content: "";
   width: 40px;
   height: 1px;
   background-color: var(--text-color-light);
   position: absolute;
   top: 50%;
   left: -4rem;
-
 }
 
 .nav__name::before {
@@ -280,19 +276,19 @@ img {
   color: var(--text-color-light);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .nav__link::after {
-  content: '';
+  content: "";
   width: 25%;
   width: 0;
   height: 2px;
   background-color: var(--white-color);
   position: absolute;
   left: 0;
-  bottom: -.5rem;
-  transition: width .3s;
+  bottom: -0.5rem;
+  transition: width 0.3s;
 }
 
 .nav__link:hover {
@@ -318,11 +314,10 @@ img {
 
 /* Add shadow header */
 .shadow-header {
-  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, 0.12);
 }
 
 /* Active link */
-
 
 /*=============== HOME ===============*/
 .home__containter {
@@ -333,7 +328,6 @@ img {
   font-size: var(--biggest-font-size);
   text-align: center;
 }
-
 
 .home__perfil {
   position: relative;
@@ -354,11 +348,11 @@ img {
   height: 100%;
   background-color: var(--container-color);
   position: absolute;
-  bottom: -.75rem;
-  right: -.75rem;
+  bottom: -0.75rem;
+  right: -0.75rem;
   border: 4px solid var(--black-color);
   z-index: 5;
-  transition: background-color .4s;
+  transition: background-color 0.4s;
 }
 
 .home__arrow,
@@ -366,7 +360,7 @@ img {
   position: absolute;
   filter: invert(1);
   width: 50px;
-  transition: filter .4s;
+  transition: filter 0.4s;
 }
 
 .home__arrow {
@@ -376,12 +370,12 @@ img {
 
 .home__line {
   right: -2rem;
-  bottom: -.5rem;
+  bottom: -0.5rem;
 }
 
 .home__perfil .geometric-box {
   top: 2.5rem;
-  left: -.7rem;
+  left: -0.7rem;
   z-index: 10;
 }
 
@@ -403,7 +397,7 @@ img {
   padding: 6px;
   display: grid;
   place-items: center;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .home__social-link:hover {
@@ -422,8 +416,8 @@ img {
 
 .home__description b {
   background: linear-gradient(90deg,
-      hsla(14, 98%, 50%, .3),
-      hsla(14, 98%, 50%, .0));
+      hsla(14, 98%, 50%, 0.3),
+      hsla(14, 98%, 50%, 0));
 }
 
 .home__scroll {
@@ -446,8 +440,7 @@ img {
   font-size: 1rem;
   cursor: pointer;
   overflow: hidden;
-  transition: background-color .4s;
-
+  transition: background-color 0.4s;
 }
 
 .home__scroll-box i {
@@ -466,18 +459,55 @@ img {
   }
 
   100% {
-    transform: translateY(.6rem);
+    transform: translateY(0.6rem);
     opacity: 0;
   }
 }
 
 /*=============== BUTTON ===============*/
+.button,
+.button__ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
 
+.button {
+  background-color: var(--black-color);
+  padding: 1.1rem 1.5rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background-color 0.4s;
+}
+
+.button i {
+  font-size: 1.25rem;
+}
+
+.button:hover {
+  background-color: var(--first-color);
+}
+
+.button__ghost {
+  border: 3px solid var(--black-color);
+  color: var(--black-color);
+  padding: 0.5rem;
+  transition: border 0.4s, color 0.4s;
+}
+
+.button__ghost i {
+  font-size: 1.25rem;
+}
+
+.button__ghost:hover {
+  border: 3px solid var(--first-color);
+}
 
 /*=============== ABOUT ===============*/
 .about {
   background-color: var(--container-color);
-  transition: background-color .4s;
+  transition: background-color 0.4s;
 }
 
 .about__container {
@@ -500,7 +530,6 @@ img {
   z-index: 1;
 }
 
-
 .about__shadow .about__line .about__box {
   position: absolute;
 }
@@ -512,30 +541,27 @@ img {
   top: -2.5rem;
   right: -3.5rem;
   border-bottom: 4px solid var(--first-color);
-  transition: background-color .4s;
+  transition: background-color 0.4s;
 }
-
 
 .about__perfil .geometric-box {
   top: 1.5rem;
   right: -2.8rem;
 }
 
-
 .about__line {
   filter: invert(1);
   right: -1.25rem;
   top: 6rem;
   width: 50px;
-  transition: filter .4s;
+  transition: filter 0.4s;
 }
-
 
 .about__box {
   width: 40px;
   height: 40px;
   background-color: var(--first-color);
-  right: -.5rem;
+  right: -0.5rem;
   bottom: 1.5rem;
 }
 
@@ -544,20 +570,19 @@ img {
 }
 
 .about__description {
-
   position: relative;
   color: var(--title-color);
   margin-bottom: 1.5rem;
 }
 
 .about__description::after {
-  content: '';
+  content: "";
   width: 20px;
   height: 1px;
   background-color: var(--title-color);
   position: absolute;
   left: -1.75rem;
-  top: .5rem;
+  top: 0.5rem;
 }
 
 .about__list {
@@ -574,37 +599,86 @@ img {
 }
 
 /*=============== SERVICES ===============*/
+.services__container {
+  grid-template-columns: 250px;
+  justify-content: center;
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
 
+.services__card {
+  position: relative;
+}
+
+.services__content {
+  height: 100%;
+  background-color: var(--body-color);
+  border: 4px solid var(--black-color);
+  padding: 6rem 1rem 3rem;
+  z-index: 5;
+  position: relative;
+  transition: background-color .4s, border .4s;
+}
+
+.services__border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 4px solid var(--first-color);
+  top: 0;
+  left: 0;
+  transition: transform .4s;
+}
+
+.services__card:hover .services__border {
+  transform: translate(.75rem, .75rem);
+}
+
+.services__icon {
+  position: relative;
+  display: inline-block;
+}
+
+.services__icon i {
+  font-size: 2rem;
+  color: var(--black-color);
+  position: relative;
+  z-index: 5;
+}
+
+.services__box {
+  background-color: var(--first-color);
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: -2px;
+  top: -2px;
+}
+
+.services__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+}
 
 /*=============== PROJECTS ===============*/
 
-
 /*=============== CONTACT ===============*/
-
 
 /* Opaque placeholder */
 
-
 /* Move label up & sticky label */
-
 
 /*=============== FOOTER ===============*/
 
-
 /*=============== SCROLL BAR ===============*/
-
 
 /*=============== SCROLL UP ===============*/
 
-
 /* Show Scroll Up */
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-
 /* For medium devices */
-
 
 /* For large devices */
