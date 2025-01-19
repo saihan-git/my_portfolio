@@ -232,8 +232,8 @@
             </p>
           </div>
 
-          <a href="https://github.com/saihan-git/FoodHug_online_cookbook.git" target="_blank" class=" k">
-            <i class="ri-github-line"></i> View
+          <a href="https://github.com/saihan-git/FoodHug_online_cookbook.git" target="_blank" class="projects__link">
+            <i class="ri-github-line"></i> <b>View</b>
           </a>
         </article>
 
@@ -257,7 +257,7 @@
 
 
           <a href="https://github.com/saihan-git/FoodHug_online_cookbook.git" target="_blank" class="projects__link">
-            <i class="ri-github-line"></i> View
+            <i class="ri-github-line"></i><b>View</b>
           </a>
 
 
@@ -284,7 +284,7 @@
 
 
           <a href="https://github.com/saihan-git/FoodHug_online_cookbook.git" target="_blank" class="projects__link">
-            <i class="ri-github-line"></i> View
+            <i class="ri-github-line"></i><b>View</b>
           </a>
 
 
@@ -311,7 +311,7 @@
 
 
           <a href="https://github.com/saihan-git/FoodHug_online_cookbook.git" target="_blank" class="projects__link">
-            <i class="ri-github-line"></i> View
+            <i class="ri-github-line"></i><b>View</b>
           </a>
 
 
@@ -367,12 +367,14 @@
                 <label for="subject" class="contact__label">Subject</label>
               </div>
 
+
               <div class="contact__box contact__area">
                 <textarea name="user_message" id="message" class="contact__input" required
                   placeholder="Message"></textarea>
                 <label for="message" class="contact__label">Message</label>
               </div>
           </form>
+          <p class="contact__message" id="contact-message"></p>
           <button type="submit" class="contact__button button">
             <i class="ri-send-plane-line"></i>Send Message
           </button>
@@ -421,7 +423,31 @@
   </main>
 
   <!--==================== FOOTER ====================-->
-  <footer class="footer"></footer>
+  <footer class="footer">
+
+    <div class="footer__container container grid">
+      <ul class="footer__link">
+
+        <li>
+          <a href="#about" class="footer__link">About</a>
+        </li>
+
+        <li>
+          <a href="#services" class="footer__link">Services</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer__link">Projects</a>
+        </li>
+
+      </ul>
+      <span class="footer__copy">
+        &#169; All Rights Reserved By
+        <a href="#">Saisenghan.</a>
+      </span>
+    </div>
+
+  </footer>
 
   <!--========== SCROLL UP ==========-->
 
@@ -429,7 +455,8 @@
   <script src=""></script>
 
   <!--=============== EMAIL JS ===============-->
-
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
   <!--=============== MAIN JS ===============-->
   <script src="assets/js/main.js"></script>
 </body>
