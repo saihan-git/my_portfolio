@@ -44,7 +44,7 @@
           </li>
 
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact Me</a>
+            <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
           </li>
         </ul>
         <!-- Close button -->
@@ -54,7 +54,7 @@
       </div>
       <div class="nav__buttons">
         <!-- Theme button -->
-
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
 
 
 
@@ -325,7 +325,7 @@
     </section>
 
     <!--==================== CONTACT ====================-->
-    <section class="contact section" id="contact">
+    <section class="contact__section" id="contact">
       <div class="contact__container grid">
         <div class="contact__data">
           <h2 class="section__title-2">
@@ -365,19 +365,20 @@
                   placeholder="Email Address">
                 <label for="email" class="contact__label">Email Address</label>
               </div>
+            </div>
 
-              <div class="contact__box">
-                <input type="text" name="user_subject" class="contact__input" id="subject" required
-                  placeholder="Subject" placeholder="Subject">
-                <label for="subject" class="contact__label">Subject</label>
-              </div>
+            <div class="contact__box">
+              <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject"
+                placeholder="Subject">
+              <label for="subject" class="contact__label">Subject</label>
+            </div>
 
 
-              <div class="contact__box contact__area">
-                <textarea name="user_message" id="message" class="contact__input" required
-                  placeholder="Message"></textarea>
-                <label for="message" class="contact__label">Message</label>
-              </div>
+            <div class="contact__box contact__area">
+              <textarea name="user_message" id="message" class="contact__input" required
+                placeholder="Message"></textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
           </form>
           <p class="contact__message" id="contact-message"></p>
           <button type="submit" class="contact__button button">
