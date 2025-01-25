@@ -1214,15 +1214,16 @@ body.dark-theme {
   .services__container {
     grid-template-columns: repeat(2, 250px);
   }
-}
 
-.contact__button {
-  margin-top: 1rem;
-}
 
-.projects__container {
-  grid-template-columns: repeat(2, 350px);
+  .contact__button {
+    margin-top: 1rem;
+  }
 
+  .projects__container {
+    grid-template-columns: repeat(2, 350px);
+
+  }
 }
 
 /* For large devices */
