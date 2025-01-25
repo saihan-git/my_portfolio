@@ -40,13 +40,13 @@ window.addEventListener('scroll', shadowHeader)
 
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById('contact-form');
-const contactMessage = document.getElementById('contact-message');
+contactMessage = document.getElementById('contact-message');
 
 const sendEmail = (e) => {
     e.preventDefault()
 
     //serviceID - templateID - #from - publicKey
-    emailjs.sendForm('service_9aekghf', 'template_afa6n39', '#contact-form', 'l1vNr8i6rfPwwpuJW')
+    emailjs.sendForm('service_9aekghf', 'template_afa6n39', '#contact-form', 'ELy6i1KqNgiISHgt3')
         .then(() => {
 
             //Show sent message
