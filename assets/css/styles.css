@@ -683,6 +683,15 @@ body.dark-theme {
   justify-content: center;
   align-items: center;
   column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.download__buttons {
+  justify-content: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 /*=============== SERVICES ===============*/
@@ -1345,7 +1354,7 @@ body.dark-theme {
   .home__description {
     position: relative;
     font-size: var(--h2-font-size);
-    margin-bottom: 5.5rem;
+    margin-bottom: 3.5rem;
     padding-left: 3rem;
   }
 
